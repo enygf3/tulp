@@ -46,7 +46,11 @@ html, body {
   color: #000;
   font-size: 64px;
   text-align: center;
-  margin-top: 7.5%;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
 }
 
 .head-benefits {
