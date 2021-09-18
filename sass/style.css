@@ -1,0 +1,290 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-head {
+  background: url(../img/head.jpg) no-repeat center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.head-title {
+  font-family: 'Bebas Bold';
+  color: #875C5C;
+  font-size: 72px;
+  text-align: center;
+  line-height: 77px;
+  padding: 250px 0px 0px 0px;
+}
+
+.head-title span {
+  letter-spacing: 28px;
+  font-size: 128px;
+  line-height: 154px;
+  text-align: center;
+}
+
+.head-phones {
+  font-family: 'Bebas Bold';
+  color: #000;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 7.5%;
+}
+
+.head-benefits {
+  background-color: #F19BD5;
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefit h3 {
+  color: #fff;
+  font-family: 'Roboto Light';
+  line-height: 25px;
+  font-size: 21px;
+  padding-right: 25px;
+}
+
+.why__us-title {
+  font-family: 'Bebas Bold';
+  color: #000;
+  font-size: 43px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.wrapper-comprasion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin-top: 50px;
+  background: url(../img/comprasion.png) center no-repeat;
+}
+
+.comprasion {
+  position: relative;
+  height: 500px;
+}
+
+.comprasion .title {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  font-size: 37px;
+  font-family: 'Bebas Bold';
+  width: 240px;
+  word-break: keep-all;
+}
+
+.comprasion .others-title {
+  color: #6D6E71;
+}
+
+.comprasion .we-title {
+  color: #FF6B87;
+}
+
+.list {
+  padding-top: 75px;
+  font-family: 'Roboto Light';
+  font-weight: normal;
+}
+
+.list span {
+  font-weight: bold;
+}
+
+.list img {
+  padding-right: 10px;
+}
+
+.list p {
+  padding-top: 20px;
+}
+
+.wrapper-pricelist {
+  width: 100%;
+  height: 260px;
+  background-color: #FFCACA;
+  text-align: center;
+}
+
+.wrapper-make__request {
+  padding: 30px 0px 0px 0px;
+}
+
+.request {
+  font-family: 'Roboto Light';
+  font-weight: normal;
+  color: #231F20;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.pricelist__tel {
+  font-family: 'Roboto Light';
+  font-weight: bold;
+  color: #231F20;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 25px 0px 25px 0px;
+}
+
+.pricelist-btn {
+  color: #fff;
+  border: none;
+  background-color: #FF6B87;
+  border-radius: 20px;
+  width: 277px;
+  height: 46px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto Light';
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 25px 0px 0px 0px;
+}
+
+.our__plants-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Bebas Bold';
+  font-size: 37px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.our__plants-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+}
+
+.gallery-item {
+  position: relative;
+  width: 30%;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.selling-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Bebas Bold';
+  font-size: 37px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.wrapper-selling {
+  position: relative;
+}
+
+.selling-bg {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+}
+
+.benefit-sell-title {
+  color: #231F20;
+  font-size: 24px;
+  font-family: 'Bebas Bold';
+  line-height: 29px;
+}
+
+.pink {
+  color: #FF5780;
+}
+
+.benefit-sell-text {
+  color: #231F20;
+  font-family: 'Roboto Light';
+  line-height: 23px;
+  font-size: 19px;
+}
+
+.selling-benefit {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.selling-benefits {
+  padding-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
